@@ -1,0 +1,550 @@
+{
+  "name": "Burundi",
+  "code": "BI",
+  "currency": "BIF",
+  "currency_fr": "Franc Burundais",
+  "flag": "https://flagcdn.com/w80/bi.png",
+  "languages": [
+    { "name": "French", "code": "fr" },
+    { "name": "Kirundi", "code": "rn" },
+    { "name": "English", "code": "en" },
+    { "name": "Swahili", "code": "sw" }
+  ],
+  "timezones": [
+    {
+      "name": "Africa/Bujumbura",
+      "code": "Africa/Bujumbura"
+    },
+    {
+      "name": "Central Africa Time",
+      "code": "CAT"
+    }
+  ],
+  "old_provinces": [
+    {
+      "name": "Bubanza",
+      "communes": ["Bubanza"]
+    },
+    {
+      "name": "Bujumbura",
+      "communes": ["Mukaza"]
+    },
+    {
+      "name": "Bururi",
+      "communes": ["Bururi"]
+    },
+    {
+      "name": "Cankuzo",
+      "communes": ["Cankuzo"]
+    },
+    {
+      "name": "Cibitoke",
+      "communes": ["Cibitoke"]
+    },
+    {
+      "name": "Gitega",
+      "communes": ["Gitega"]
+    },
+    {
+      "name": "Karuzi",
+      "communes": ["Karuzi"]
+    },
+    {
+      "name": "Kayanza",
+      "communes": ["Kayanza"]
+    },
+    {
+      "name": "Kirundo",
+      "communes": ["Kirundo"]
+    },
+    {
+      "name": "Makamba",
+      "communes": ["Makamba"]
+    },
+    {
+      "name": "Muramvya",
+      "communes": ["Muramvya", "Kiganda", "Mbuye", "Rutegama", "Bukeye"]
+    },
+    {
+      "name": "Muyinga",
+      "communes": ["Muyinga"]
+    },
+    {
+      "name": "Mwaro",
+      "communes": ["Mwaro"]
+    },
+    {
+      "name": "Ngozi",
+      "communes": ["Ngozi"]
+    },
+    {
+      "name": "Rutana",
+      "communes": ["Rutana"]
+    },
+    {
+      "name": "Ruyigi",
+      "communes": ["Ruyigi"]
+    }
+  ],
+  "provinces": [
+    {
+      "name": "Buhumuza",
+      "capital": "Cankuzo",
+      "population": 1800000,
+      "area_km2": 6500,
+      "coordinates": { "lat": -3.2167, "lng": 30.55 },
+      "description": "Known for its serene landscapes and rich traditions, Buhumuza offers authentic Burundian culture amidst breathtaking hills and welcoming communities.",
+      "description_fr": "Connue pour ses paysages sereins et ses riches traditions, Buhumuza offre une culture burundaise authentique au milieu de collines à couper le souffle et de communautés accueillantes.",
+      "major_industries": ["Agriculture", "Livestock", "Traditional Crafts"],
+      "major_industries_fr": ["Agriculture", "Élevage", "Artisanat traditionnel"],
+      "key_attractions": ["Serene hills and landscapes", "Traditional villages", "Local markets and seasonal festivals"],
+      "key_attractions_fr": ["Collines et paysages sereins", "Villages traditionnels", "Marchés locaux et festivals saisonniers"],
+      "climate": "Temperate highland",
+      "climate_fr": "Hautes terres tempérées",
+      "cities": [
+        {
+          "name": "Cankuzo",
+          "population": 50000,
+          "coordinates": { "lat": -3.2167, "lng": 30.55 },
+          "commune": "Cankuzo",
+          "zones": [
+            {
+              "name": "Cankuzo Centre",
+              "collines": ["Cankuzo I", "Cankuzo II", "Cankuzo III", "Cankuzo IV"]
+            },
+            {
+              "name": "Cankuzo Rural",
+              "collines": ["Gisagara", "Mugera", "Nyabikere", "Rugari"]
+            }
+          ]
+        },
+        {
+          "name": "Muyinga",
+          "population": 75000,
+          "coordinates": { "lat": -2.85, "lng": 30.3333 },
+          "commune": "Muyinga",
+          "zones": [
+            {
+              "name": "Muyinga Centre",
+              "collines": ["Muyinga I", "Muyinga II", "Muyinga III"]
+            },
+            {
+              "name": "Muyinga Rural",
+              "collines": ["Buhinyuza", "Gashoho", "Gasorwe", "Kigoma"]
+            }
+          ]
+        },
+        {
+          "name": "Ruyigi",
+          "population": 60000,
+          "coordinates": { "lat": -3.4667, "lng": 30.25 },
+          "commune": "Ruyigi",
+          "zones": [
+            {
+              "name": "Ruyigi Centre",
+              "collines": ["Ruyigi I", "Ruyigi II", "Ruyigi III"]
+            },
+            {
+              "name": "Ruyigi Rural",
+              "collines": ["Bweru", "Gisuru", "Kinyinya", "Nyabitsinda"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bujumbura",
+      "capital": "Bujumbura",
+      "population": 2500000,
+      "area_km2": 3200,
+      "coordinates": { "lat": -3.3614, "lng": 29.3599 },
+      "description": "This province encompasses the nation's economic hub along the shores of Lake Tanganyika, featuring vibrant markets, beaches, and wildlife-rich national parks.",
+      "description_fr": "Cette province englobe le centre économique de la nation le long des rives du lac Tanganyika, avec des marchés animés, des plages et des parcs nationaux riches en faune.",
+      "major_industries": ["Commerce", "Industry", "Services", "Tourism", "Fishing"],
+      "major_industries_fr": ["Commerce", "Industrie", "Services", "Tourisme", "Pêche"],
+      "key_attractions": ["Lake Tanganyika beaches", "Rusizi National Park", "Central Market", "Livingstone-Stanley Monument"],
+      "key_attractions_fr": ["Plages du lac Tanganyika", "Parc national de Rusizi", "Marché central", "Monument Livingstone-Stanley"],
+      "climate": "Tropical lakeside",
+      "climate_fr": "Tropical lacustre",
+      "cities": [
+        {
+          "name": "Bujumbura",
+          "population": 1000000,
+          "coordinates": { "lat": -3.3614, "lng": 29.3599 },
+          "commune": "Mukaza",
+          "zones": [
+            {
+              "name": "Rohero",
+              "collines": ["Rohero I", "Rohero II", "Rohero III", "Rohero IV"]
+            },
+            {
+              "name": "Buyenzi",
+              "collines": ["Buyenzi I", "Buyenzi II", "Buyenzi III"]
+            },
+            {
+              "name": "Bwiza",
+              "collines": ["Bwiza I", "Bwiza II", "Bwiza III"]
+            }
+          ]
+        },
+        {
+          "name": "Bubanza",
+          "population": 120000,
+          "coordinates": { "lat": -3.0833, "lng": 29.4 },
+          "commune": "Bubanza",
+          "zones": [
+            {
+              "name": "Bubanza Centre",
+              "collines": ["Bubanza I", "Bubanza II", "Bubanza III"]
+            },
+            {
+              "name": "Bubanza Rural",
+              "collines": ["Gihanga", "Musigati", "Rugazi", "Sangwe"]
+            }
+          ]
+        },
+        {
+          "name": "Cibitoke",
+          "population": 100000,
+          "coordinates": { "lat": -2.8833, "lng": 29.1167 },
+          "commune": "Cibitoke",
+          "zones": [
+            {
+              "name": "Cibitoke Centre",
+              "collines": ["Cibitoke I", "Cibitoke II", "Cibitoke III"]
+            },
+            {
+              "name": "Cibitoke Rural",
+              "collines": ["Buganda", "Mabayi", "Mugina", "Murwi"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Burunga",
+      "capital": "Makamba",
+      "population": 1600000,
+      "area_km2": 5800,
+      "coordinates": { "lat": -4.1333, "lng": 29.8 },
+      "description": "A nature lover's paradise, Burunga boasts majestic waterfalls, lush forests, and expansive tea plantations.",
+      "description_fr": "Un paradis pour les amoureux de la nature, Burunga se vante de cascades majestueuses, de forêts luxuriantes et de vastes plantations de thé.",
+      "major_industries": ["Tea Production", "Coffee", "Forestry", "Tourism"],
+      "major_industries_fr": ["Production de thé", "Café", "Foresterie", "Tourisme"],
+      "key_attractions": ["Karera Waterfalls", "Teza Tea Plantations", "Kibira National Park", "Rumonge Beach"],
+      "key_attractions_fr": ["Cascades de Karera", "Plantations de thé de Teza", "Parc national de Kibira", "Plage de Rumonge"],
+      "climate": "Tropical forest",
+      "climate_fr": "Forêt tropicale",
+      "cities": [
+        {
+          "name": "Makamba",
+          "population": 80000,
+          "coordinates": { "lat": -4.1333, "lng": 29.8 },
+          "commune": "Makamba",
+          "zones": [
+            {
+              "name": "Makamba Centre",
+              "collines": ["Makamba I", "Makamba II", "Makamba III"]
+            },
+            {
+              "name": "Makamba Rural",
+              "collines": ["Kayogoro", "Kibago", "Mabanda", "Vugizo"]
+            }
+          ]
+        },
+        {
+          "name": "Rumonge",
+          "population": 70000,
+          "coordinates": { "lat": -3.9667, "lng": 29.4333 },
+          "commune": "Rumonge",
+          "zones": [
+            {
+              "name": "Rumonge Centre",
+              "collines": ["Rumonge I", "Rumonge II", "Rumonge III"]
+            },
+            {
+              "name": "Rumonge Rural",
+              "collines": ["Burambi", "Buyengero", "Mugara", "Nyanza-Lac"]
+            }
+          ]
+        },
+        {
+          "name": "Bururi",
+          "population": 60000,
+          "coordinates": { "lat": -3.95, "lng": 29.6167 },
+          "commune": "Bururi",
+          "zones": [
+            {
+              "name": "Bururi Centre",
+              "collines": ["Bururi I", "Bururi II", "Bururi III"]
+            },
+            {
+              "name": "Bururi Rural",
+              "collines": ["Burambi", "Matana", "Mugamba", "Rutovu"]
+            }
+          ]
+        },
+        {
+          "name": "Rutana",
+          "population": 50000,
+          "coordinates": { "lat": -3.9167, "lng": 30.0 },
+          "commune": "Rutana",
+          "zones": [
+            {
+              "name": "Rutana Centre",
+              "collines": ["Rutana I", "Rutana II", "Rutana III"]
+            },
+            {
+              "name": "Rutana Rural",
+              "collines": ["Giharo", "Mpinga-Kayove", "Musongati", "Nyabitsinda"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Butanyerera",
+      "capital": "Ngozi",
+      "population": 2000000,
+      "area_km2": 4800,
+      "coordinates": { "lat": -2.9167, "lng": 29.8167 },
+      "description": "Characterized by rolling highlands and bird-filled lakes, Butanyerera is ideal for explorers seeking vibrant markets and breathtaking scenery.",
+      "description_fr": "Caractérisée par des hautes terres ondulantes et des lacs remplis d'oiseaux, Butanyerera est idéale pour les explorateurs en quête de marchés animés et de paysages à couper le souffle.",
+      "major_industries": ["Coffee", "Tea", "Agriculture", "Livestock"],
+      "major_industries_fr": ["Café", "Thé", "Agriculture", "Élevage"],
+      "key_attractions": ["Lake Rwihinda Bird Sanctuary", "Rolling coffee and tea hills", "Vibrant community markets"],
+      "key_attractions_fr": [
+        "Sanctuaire d'oiseaux du lac Rwihinda",
+        "Collines ondulantes de café et de thé",
+        "Marchés communautaires animés"
+      ],
+      "climate": "Highland temperate",
+      "climate_fr": "Hautes terres tempérées",
+      "cities": [
+        {
+          "name": "Ngozi",
+          "population": 150000,
+          "coordinates": { "lat": -2.9167, "lng": 29.8167 },
+          "commune": "Ngozi",
+          "zones": [
+            {
+              "name": "Ngozi Centre",
+              "collines": ["Ngozi I", "Ngozi II", "Ngozi III", "Ngozi IV"]
+            },
+            {
+              "name": "Ngozi Rural",
+              "collines": ["Gashikanwa", "Kiremba", "Muhanga", "Nyamurenza"]
+            }
+          ]
+        },
+        {
+          "name": "Kayanza",
+          "population": 100000,
+          "coordinates": { "lat": -2.9167, "lng": 29.6167 },
+          "commune": "Kayanza",
+          "zones": [
+            {
+              "name": "Kayanza Centre",
+              "collines": ["Kayanza I", "Kayanza II", "Kayanza III"]
+            },
+            {
+              "name": "Kayanza Rural",
+              "collines": ["Gatara", "Kabarore", "Matongo", "Muruta"]
+            }
+          ]
+        },
+        {
+          "name": "Kirundo",
+          "population": 80000,
+          "coordinates": { "lat": -2.5833, "lng": 30.1 },
+          "commune": "Kirundo",
+          "zones": [
+            {
+              "name": "Kirundo Centre",
+              "collines": ["Kirundo I", "Kirundo II", "Kirundo III"]
+            },
+            {
+              "name": "Kirundo Rural",
+              "collines": ["Bugabira", "Busoni", "Gitobe", "Vumbi"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gitega",
+      "capital": "Gitega",
+      "population": 1900000,
+      "area_km2": 7500,
+      "coordinates": { "lat": -3.4264, "lng": 29.9306 },
+      "description": "Serving as the political capital, Gitega is the cultural heart of Burundi, home to the Royal Drums of Gishora and the National Museum.",
+      "description_fr": "Servant de capitale politique, Gitega est le cœur culturel du Burundi, abritant les Tambours royaux de Gishora et le Musée national.",
+      "major_industries": ["Government Services", "Agriculture", "Cultural Tourism", "Education"],
+      "major_industries_fr": ["Services gouvernementaux", "Agriculture", "Tourisme culturel", "Éducation"],
+      "key_attractions": ["Gishora Royal Drums Sanctuary", "National Museum of Gitega", "Historic sites and community ceremonies"],
+      "key_attractions_fr": [
+        "Sanctuaire des Tambours royaux de Gishora",
+        "Musée national de Gitega",
+        "Sites historiques et cérémonies communautaires"
+      ],
+      "climate": "Temperate highland",
+      "climate_fr": "Hautes terres tempérées",
+      "cities": [
+        {
+          "name": "Gitega",
+          "population": 135000,
+          "coordinates": { "lat": -3.4264, "lng": 29.9306 },
+          "commune": "Gitega",
+          "zones": [
+            {
+              "name": "Gitega Centre",
+              "collines": ["Gitega I", "Gitega II", "Gitega III", "Gitega IV"]
+            },
+            {
+              "name": "Gitega Rural",
+              "collines": ["Bukirasazi", "Gishubi", "Itaba", "Nyabihanga"]
+            }
+          ]
+        },
+        {
+          "name": "Karuzi",
+          "population": 90000,
+          "coordinates": { "lat": -3.1, "lng": 30.1667 },
+          "commune": "Karuzi",
+          "zones": [
+            {
+              "name": "Karuzi Centre",
+              "collines": ["Karuzi I", "Karuzi II", "Karuzi III"]
+            },
+            {
+              "name": "Karuzi Rural",
+              "collines": ["Gihogazi", "Gitaramuka", "Mutumba", "Shombo"]
+            }
+          ]
+        },
+        {
+          "name": "Muramvya",
+          "population": 70000,
+          "coordinates": { "lat": -3.2667, "lng": 29.6167 },
+          "commune": "Muramvya",
+          "zones": [
+            {
+              "name": "Muramvya Centre",
+              "collines": ["Muramvya I", "Muramvya II", "Muramvya III"]
+            },
+            {
+              "name": "Muramvya Rural",
+              "collines": ["Bukeye", "Kiganda", "Mbuye", "Rutegama"]
+            }
+          ]
+        },
+        {
+          "name": "Mwaro",
+          "population": 60000,
+          "coordinates": { "lat": -3.5167, "lng": 29.7 },
+          "commune": "Mwaro",
+          "zones": [
+            {
+              "name": "Mwaro Centre",
+              "collines": ["Mwaro I", "Mwaro II", "Mwaro III"]
+            },
+            {
+              "name": "Mwaro Rural",
+              "collines": ["Bisoro", "Gisozi", "Kayokwe", "Nyabihanga"]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "demographics": {
+    "population": 12332788,
+    "population_density": 443.1,
+    "urban_population": 3077593,
+    "rural_population": 9255195,
+    "male_population": 5901069,
+    "female_population": 6431719,
+    "literacy_rate": 68.4,
+    "life_expectancy": 62
+  },
+  "geography": {
+    "area_km2": 27834,
+    "landlocked": true,
+    "borders": ["Rwanda", "Tanzania", "Democratic Republic of Congo"],
+    "borders_fr": ["Rwanda", "Tanzanie", "République démocratique du Congo"],
+    "highest_point": "Mount Heha (2670m)",
+    "highest_point_fr": "Mont Heha (2670m)",
+    "major_lake": "Lake Tanganyika",
+    "major_lake_fr": "Lac Tanganyika",
+    "climate": "Tropical Highland",
+    "climate_fr": "Hautes terres tropicales"
+  },
+  "contact_formats": {
+    "phone": {
+      "country_code": "+257",
+      "format": "+257 XX XX XX XX",
+      "mobile_prefixes": ["61", "62", "63", "64", "65", "66", "67", "68", "69", "71", "72", "73", "74", "75", "76", "77", "78", "79"]
+    },
+    "postal_code": {
+      "format": "XXXX",
+      "example": "1000"
+    },
+    "address_format": "Street, Commune, Province, Burundi",
+    "address_format_fr": "Rue, Commune, Province, Burundi"
+  },
+  "education": {
+    "structure": {
+      "primary": "6 years (ages 6-12)",
+      "primary_fr": "6 ans (âges 6-12)",
+      "secondary": "6 years (ages 12-18)",
+      "secondary_fr": "6 ans (âges 12-18)",
+      "higher_education": "Universities and technical institutes",
+      "higher_education_fr": "Universités et instituts techniques"
+    },
+    "academic_year": {
+      "starts": "September",
+      "starts_fr": "Septembre",
+      "ends": "June",
+      "ends_fr": "Juin",
+      "terms": 3,
+      "holidays": ["Christmas Break (December-January)", "Easter Break (March-April)", "Summer Break (July-August)"],
+      "holidays_fr": ["Vacances de Noël (Décembre-Janvier)", "Vacances de Pâques (Mars-Avril)", "Vacances d'été (Juillet-Août)"]
+    },
+    "literacy_rate": 68.4,
+    "school_language": "French",
+    "local_language": "Kirundi"
+  },
+  "holidays": [
+    { "date": "01-01", "name": "New Year's Day", "name_fr": "Jour de l'An", "type": "national" },
+    { "date": "01-05", "name": "Unity Day", "name_fr": "Jour de l'Unité", "type": "national" },
+    { "date": "02-05", "name": "Constitution Day", "name_fr": "Jour de la Constitution", "type": "national" },
+    { "date": "01-07", "name": "Independence Day", "name_fr": "Jour de l'Indépendance", "type": "national" },
+    { "date": "15-08", "name": "Assumption Day", "name_fr": "Jour de l'Assomption", "type": "religious" },
+    { "date": "13-10", "name": "Prince Louis Rwagasore Day", "name_fr": "Jour du Prince Louis Rwagasore", "type": "national" },
+    { "date": "21-10", "name": "President Ndadaye Day", "name_fr": "Jour du Président Ndadaye", "type": "national" },
+    { "date": "25-12", "name": "Christmas Day", "name_fr": "Jour de Noël", "type": "religious" }
+  ],
+  "economy": {
+    "currency": "BIF",
+    "currency_symbol": "FBu",
+    "gdp_growth": 5.4,
+    "budget_2024_25": "4.4 trillion BIF",
+    "major_industries": ["Agriculture", "Coffee", "Tea", "Textiles", "Cement"],
+    "major_industries_fr": ["Agriculture", "Café", "Thé", "Textiles", "Ciment"],
+    "natural_resources": ["Nickel", "Gold", "Coffee", "Tea"],
+    "natural_resources_fr": ["Nickel", "Or", "Café", "Thé"]
+  },
+  "administration": {
+    "capital": {
+      "political": "Gitega",
+      "economic": "Bujumbura"
+    },
+    "administrative_levels": {
+      "provinces": 5,
+      "communes": 42,
+      "zones": 451,
+      "collines": 3044
+    },
+    "reform_date": "2023-03"
+  }
+}
