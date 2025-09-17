@@ -110,7 +110,39 @@
       "key_attractions_fr": ["Collines et paysages sereins", "Villages traditionnels", "Marchés locaux et festivals saisonniers"],
       "climate": "Temperate highland",
       "climate_fr": "Hautes terres tempérées",
-      "cities": [
+      "communes": [
+        {
+          "name": "Butaganzwa",
+          "population": 40000,
+          "coordinates": { "lat": -2.9, "lng": 29.6 },
+          "commune": "Butaganzwa",
+          "zones": [
+            {
+              "name": "Butaganzwa Centre",
+              "collines": ["Butaganzwa I", "Butaganzwa II", "Butaganzwa III"]
+            },
+            {
+              "name": "Butaganzwa Rural",
+              "collines": ["Gahombo", "Gatara", "Kabarore", "Muruta"]
+            }
+          ]
+        },
+        {
+          "name": "Butihinda",
+          "population": 35000,
+          "coordinates": { "lat": -2.8, "lng": 30.1 },
+          "commune": "Butihinda",
+          "zones": [
+            {
+              "name": "Butihinda Centre",
+              "collines": ["Butihinda I", "Butihinda II", "Butihinda III"]
+            },
+            {
+              "name": "Butihinda Rural",
+              "collines": ["Gashoho", "Gasorwe", "Giteranyi", "Mwakiro"]
+            }
+          ]
+        },
         {
           "name": "Cankuzo",
           "population": 50000,
@@ -123,7 +155,39 @@
             },
             {
               "name": "Cankuzo Rural",
-              "collines": ["Gisagara", "Mugera", "Nyabikere", "Rugari"]
+              "collines": ["Cendajuru", "Kigamba", "Mishiha", "Rugari"]
+            }
+          ]
+        },
+        {
+          "name": "Gisagara",
+          "population": 45000,
+          "coordinates": { "lat": -3.1, "lng": 30.6 },
+          "commune": "Gisagara",
+          "zones": [
+            {
+              "name": "Gisagara Centre",
+              "collines": ["Gisagara I", "Gisagara II", "Gisagara III"]
+            },
+            {
+              "name": "Gisagara Rural",
+              "collines": ["Cankuzo", "Cendajuru", "Kigamba", "Mishiha"]
+            }
+          ]
+        },
+        {
+          "name": "Gisuri",
+          "population": 38000,
+          "coordinates": { "lat": -3.4, "lng": 30.3 },
+          "commune": "Gisuri",
+          "zones": [
+            {
+              "name": "Gisuri Centre",
+              "collines": ["Gisuri I", "Gisuri II", "Gisuri III"]
+            },
+            {
+              "name": "Gisuri Rural",
+              "collines": ["Butezi", "Bweru", "Kinyinya", "Nyabitsinda"]
             }
           ]
         },
@@ -139,7 +203,7 @@
             },
             {
               "name": "Muyinga Rural",
-              "collines": ["Buhinyuza", "Gashoho", "Gasorwe", "Kigoma"]
+              "collines": ["Butihinda", "Gashoho", "Gasorwe", "Giteranyi"]
             }
           ]
         },
@@ -155,7 +219,7 @@
             },
             {
               "name": "Ruyigi Rural",
-              "collines": ["Bweru", "Gisuru", "Kinyinya", "Nyabitsinda"]
+              "collines": ["Butezi", "Bweru", "Gisuri", "Kinyinya"]
             }
           ]
         }
@@ -176,27 +240,7 @@
       "key_attractions_fr": ["Plages du lac Tanganyika", "Parc national de Rusizi", "Marché central", "Monument Livingstone-Stanley"],
       "climate": "Tropical lakeside",
       "climate_fr": "Tropical lacustre",
-      "cities": [
-        {
-          "name": "Bujumbura",
-          "population": 1000000,
-          "coordinates": { "lat": -3.3614, "lng": 29.3599 },
-          "commune": "Mukaza",
-          "zones": [
-            {
-              "name": "Rohero",
-              "collines": ["Rohero I", "Rohero II", "Rohero III", "Rohero IV"]
-            },
-            {
-              "name": "Buyenzi",
-              "collines": ["Buyenzi I", "Buyenzi II", "Buyenzi III"]
-            },
-            {
-              "name": "Bwiza",
-              "collines": ["Bwiza I", "Bwiza II", "Bwiza III"]
-            }
-          ]
-        },
+      "communes": [
         {
           "name": "Bubanza",
           "population": 120000,
@@ -209,7 +253,23 @@
             },
             {
               "name": "Bubanza Rural",
-              "collines": ["Gihanga", "Musigati", "Rugazi", "Sangwe"]
+              "collines": ["Gihanga", "Musigati", "Mpanda", "Rugazi"]
+            }
+          ]
+        },
+        {
+          "name": "Bukinanyana",
+          "population": 45000,
+          "coordinates": { "lat": -2.9, "lng": 29.1 },
+          "commune": "Bukinanyana",
+          "zones": [
+            {
+              "name": "Bukinanyana Centre",
+              "collines": ["Bukinanyana I", "Bukinanyana II", "Bukinanyana III"]
+            },
+            {
+              "name": "Bukinanyana Rural",
+              "collines": ["Buganda", "Mabayi", "Murwi", "Rugombo"]
             }
           ]
         },
@@ -225,7 +285,135 @@
             },
             {
               "name": "Cibitoke Rural",
-              "collines": ["Buganda", "Mabayi", "Mugina", "Murwi"]
+              "collines": ["Buganda", "Bukinanyana", "Mabayi", "Murwi"]
+            }
+          ]
+        },
+        {
+          "name": "Mpanda",
+          "population": 40000,
+          "coordinates": { "lat": -3.1, "lng": 29.5 },
+          "commune": "Mpanda",
+          "zones": [
+            {
+              "name": "Mpanda Centre",
+              "collines": ["Mpanda I", "Mpanda II", "Mpanda III"]
+            },
+            {
+              "name": "Mpanda Rural",
+              "collines": ["Gihanga", "Musigati", "Rugazi", "Sangwe"]
+            }
+          ]
+        },
+        {
+          "name": "Mubimbi",
+          "population": 35000,
+          "coordinates": { "lat": -3.4, "lng": 29.3 },
+          "commune": "Mubimbi",
+          "zones": [
+            {
+              "name": "Mubimbi Centre",
+              "collines": ["Mubimbi I", "Mubimbi II", "Mubimbi III"]
+            },
+            {
+              "name": "Mubimbi Rural",
+              "collines": ["Isale", "Kabezi", "Kanyosha", "Mutambu"]
+            }
+          ]
+        },
+        {
+          "name": "Muha",
+          "population": 180000,
+          "coordinates": { "lat": -3.35, "lng": 29.35 },
+          "commune": "Muha",
+          "zones": [
+            {
+              "name": "Muha Centre",
+              "collines": ["Muha I", "Muha II", "Muha III", "Muha IV"]
+            },
+            {
+              "name": "Muha Rural",
+              "collines": ["Isale", "Kabezi", "Kanyosha", "Nyabiraba"]
+            }
+          ]
+        },
+        {
+          "name": "Muhuta",
+          "population": 30000,
+          "coordinates": { "lat": -3.2, "lng": 29.2 },
+          "commune": "Muhuta",
+          "zones": [
+            {
+              "name": "Muhuta Centre",
+              "collines": ["Muhuta I", "Muhuta II", "Muhuta III"]
+            },
+            {
+              "name": "Muhuta Rural",
+              "collines": ["Isale", "Kabezi", "Mubimbi", "Mutambu"]
+            }
+          ]
+        },
+        {
+          "name": "Mukaza",
+          "population": 200000,
+          "coordinates": { "lat": -3.3614, "lng": 29.3599 },
+          "commune": "Mukaza",
+          "zones": [
+            {
+              "name": "Mukaza Centre",
+              "collines": ["Rohero I", "Rohero II", "Rohero III", "Rohero IV"]
+            },
+            {
+              "name": "Mukaza Rural",
+              "collines": ["Buyenzi I", "Buyenzi II", "Buyenzi III", "Bwiza"]
+            }
+          ]
+        },
+        {
+          "name": "Mugina",
+          "population": 25000,
+          "coordinates": { "lat": -2.95, "lng": 29.2 },
+          "commune": "Mugina",
+          "zones": [
+            {
+              "name": "Mugina Centre",
+              "collines": ["Mugina I", "Mugina II", "Mugina III"]
+            },
+            {
+              "name": "Mugina Rural",
+              "collines": ["Buganda", "Mabayi", "Murwi", "Rugombo"]
+            }
+          ]
+        },
+        {
+          "name": "Mugongo-manga",
+          "population": 55000,
+          "coordinates": { "lat": -3.3, "lng": 29.4 },
+          "commune": "Mugongo-manga",
+          "zones": [
+            {
+              "name": "Mugongo-manga Centre",
+              "collines": ["Mugongo-manga I", "Mugongo-manga II", "Mugongo-manga III"]
+            },
+            {
+              "name": "Mugongo-manga Rural",
+              "collines": ["Isale", "Kabezi", "Kanyosha", "Mutambu"]
+            }
+          ]
+        },
+        {
+          "name": "Ntahangwa",
+          "population": 150000,
+          "coordinates": { "lat": -3.38, "lng": 29.37 },
+          "commune": "Ntahangwa",
+          "zones": [
+            {
+              "name": "Ntahangwa Centre",
+              "collines": ["Ntahangwa I", "Ntahangwa II", "Ntahangwa III", "Ntahangwa IV"]
+            },
+            {
+              "name": "Ntahangwa Rural",
+              "collines": ["Isale", "Kabezi", "Kanyosha", "Nyabiraba"]
             }
           ]
         }
@@ -246,7 +434,39 @@
       "key_attractions_fr": ["Cascades de Karera", "Plantations de thé de Teza", "Parc national de Kibira", "Plage de Rumonge"],
       "climate": "Tropical forest",
       "climate_fr": "Forêt tropicale",
-      "cities": [
+      "communes": [
+        {
+          "name": "Bururi",
+          "population": 60000,
+          "coordinates": { "lat": -3.95, "lng": 29.6167 },
+          "commune": "Bururi",
+          "zones": [
+            {
+              "name": "Bururi Centre",
+              "collines": ["Bururi I", "Bururi II", "Bururi III"]
+            },
+            {
+              "name": "Bururi Rural",
+              "collines": ["Burambi", "Matana", "Mugamba", "Rutovu"]
+            }
+          ]
+        },
+        {
+          "name": "Matana",
+          "population": 45000,
+          "coordinates": { "lat": -3.9, "lng": 29.7 },
+          "commune": "Matana",
+          "zones": [
+            {
+              "name": "Matana Centre",
+              "collines": ["Matana I", "Matana II", "Matana III"]
+            },
+            {
+              "name": "Matana Rural",
+              "collines": ["Mugamba", "Rutovu", "Songa", "Vyanda"]
+            }
+          ]
+        },
         {
           "name": "Makamba",
           "population": 80000,
@@ -260,6 +480,38 @@
             {
               "name": "Makamba Rural",
               "collines": ["Kayogoro", "Kibago", "Mabanda", "Vugizo"]
+            }
+          ]
+        },
+        {
+          "name": "Mpinga-Kayove",
+          "population": 40000,
+          "coordinates": { "lat": -3.85, "lng": 29.9 },
+          "commune": "Mpinga-Kayove",
+          "zones": [
+            {
+              "name": "Mpinga-Kayove Centre",
+              "collines": ["Mpinga-Kayove I", "Mpinga-Kayove II", "Mpinga-Kayove III"]
+            },
+            {
+              "name": "Mpinga-Kayove Rural",
+              "collines": ["Giharo", "Gitanga", "Musongati", "Nyabitsinda"]
+            }
+          ]
+        },
+        {
+          "name": "Mabanda",
+          "population": 35000,
+          "coordinates": { "lat": -4.0, "lng": 29.75 },
+          "commune": "Mabanda",
+          "zones": [
+            {
+              "name": "Mabanda Centre",
+              "collines": ["Mabanda I", "Mabanda II", "Mabanda III"]
+            },
+            {
+              "name": "Mabanda Rural",
+              "collines": ["Kayogoro", "Kibago", "Vugizo", "Nyanza-Lac"]
             }
           ]
         },
@@ -280,22 +532,6 @@
           ]
         },
         {
-          "name": "Bururi",
-          "population": 60000,
-          "coordinates": { "lat": -3.95, "lng": 29.6167 },
-          "commune": "Bururi",
-          "zones": [
-            {
-              "name": "Bururi Centre",
-              "collines": ["Bururi I", "Bururi II", "Bururi III"]
-            },
-            {
-              "name": "Bururi Rural",
-              "collines": ["Burambi", "Matana", "Mugamba", "Rutovu"]
-            }
-          ]
-        },
-        {
           "name": "Rutana",
           "population": 50000,
           "coordinates": { "lat": -3.9167, "lng": 30.0 },
@@ -307,7 +543,7 @@
             },
             {
               "name": "Rutana Rural",
-              "collines": ["Giharo", "Mpinga-Kayove", "Musongati", "Nyabitsinda"]
+              "collines": ["Giharo", "Gitanga", "Musongati", "Nyabitsinda"]
             }
           ]
         }
@@ -332,20 +568,36 @@
       ],
       "climate": "Highland temperate",
       "climate_fr": "Hautes terres tempérées",
-      "cities": [
+      "communes": [
         {
-          "name": "Ngozi",
-          "population": 150000,
-          "coordinates": { "lat": -2.9167, "lng": 29.8167 },
-          "commune": "Ngozi",
+          "name": "Busoni",
+          "population": 45000,
+          "coordinates": { "lat": -2.6, "lng": 30.15 },
+          "commune": "Busoni",
           "zones": [
             {
-              "name": "Ngozi Centre",
-              "collines": ["Ngozi I", "Ngozi II", "Ngozi III", "Ngozi IV"]
+              "name": "Busoni Centre",
+              "collines": ["Busoni I", "Busoni II", "Busoni III"]
             },
             {
-              "name": "Ngozi Rural",
-              "collines": ["Gashikanwa", "Kiremba", "Muhanga", "Nyamurenza"]
+              "name": "Busoni Rural",
+              "collines": ["Bugabira", "Gitobe", "Vumbi", "Ntega"]
+            }
+          ]
+        },
+        {
+          "name": "Matongo",
+          "population": 40000,
+          "coordinates": { "lat": -2.9, "lng": 29.6 },
+          "commune": "Matongo",
+          "zones": [
+            {
+              "name": "Matongo Centre",
+              "collines": ["Matongo I", "Matongo II", "Matongo III"]
+            },
+            {
+              "name": "Matongo Rural",
+              "collines": ["Gatara", "Kabarore", "Muruta", "Rango"]
             }
           ]
         },
@@ -361,7 +613,23 @@
             },
             {
               "name": "Kayanza Rural",
-              "collines": ["Gatara", "Kabarore", "Matongo", "Muruta"]
+              "collines": ["Butaganzwa", "Gahombo", "Gatara", "Kabarore"]
+            }
+          ]
+        },
+        {
+          "name": "Kiremba",
+          "population": 35000,
+          "coordinates": { "lat": -2.85, "lng": 29.8 },
+          "commune": "Kiremba",
+          "zones": [
+            {
+              "name": "Kiremba Centre",
+              "collines": ["Kiremba I", "Kiremba II", "Kiremba III"]
+            },
+            {
+              "name": "Kiremba Rural",
+              "collines": ["Gashikanwa", "Muhanga", "Nyamurenza", "Ruhororo"]
             }
           ]
         },
@@ -377,7 +645,55 @@
             },
             {
               "name": "Kirundo Rural",
-              "collines": ["Bugabira", "Busoni", "Gitobe", "Vumbi"]
+              "collines": ["Bugabira", "Busoni", "Bwambarangwe", "Gitobe"]
+            }
+          ]
+        },
+        {
+          "name": "Muhanga",
+          "population": 50000,
+          "coordinates": { "lat": -2.8, "lng": 29.75 },
+          "commune": "Muhanga",
+          "zones": [
+            {
+              "name": "Muhanga Centre",
+              "collines": ["Muhanga I", "Muhanga II", "Muhanga III"]
+            },
+            {
+              "name": "Muhanga Rural",
+              "collines": ["Gashikanwa", "Kiremba", "Nyamurenza", "Ruhororo"]
+            }
+          ]
+        },
+        {
+          "name": "Mwumba",
+          "population": 60000,
+          "coordinates": { "lat": -2.95, "lng": 29.85 },
+          "commune": "Mwumba",
+          "zones": [
+            {
+              "name": "Mwumba Centre",
+              "collines": ["Mwumba I", "Mwumba II", "Mwumba III"]
+            },
+            {
+              "name": "Mwumba Rural",
+              "collines": ["Busiga", "Marangara", "Ruhororo", "Tangara"]
+            }
+          ]
+        },
+        {
+          "name": "Tangara",
+          "population": 55000,
+          "coordinates": { "lat": -2.9, "lng": 29.9 },
+          "commune": "Tangara",
+          "zones": [
+            {
+              "name": "Tangara Centre",
+              "collines": ["Tangara I", "Tangara II", "Tangara III"]
+            },
+            {
+              "name": "Tangara Rural",
+              "collines": ["Busiga", "Marangara", "Mwumba", "Ruhororo"]
             }
           ]
         }
@@ -402,7 +718,39 @@
       ],
       "climate": "Temperate highland",
       "climate_fr": "Hautes terres tempérées",
-      "cities": [
+      "communes": [
+        {
+          "name": "Bugendana",
+          "population": 45000,
+          "coordinates": { "lat": -3.3, "lng": 29.9 },
+          "commune": "Bugendana",
+          "zones": [
+            {
+              "name": "Bugendana Centre",
+              "collines": ["Bugendana I", "Bugendana II", "Bugendana III"]
+            },
+            {
+              "name": "Bugendana Rural",
+              "collines": ["Buraza", "Giheta", "Itaba", "Makebuko"]
+            }
+          ]
+        },
+        {
+          "name": "Gishubi",
+          "population": 50000,
+          "coordinates": { "lat": -3.4, "lng": 29.95 },
+          "commune": "Gishubi",
+          "zones": [
+            {
+              "name": "Gishubi Centre",
+              "collines": ["Gishubi I", "Gishubi II", "Gishubi III"]
+            },
+            {
+              "name": "Gishubi Rural",
+              "collines": ["Bukirasazi", "Itaba", "Nyabihanga", "Ryansoro"]
+            }
+          ]
+        },
         {
           "name": "Gitega",
           "population": 135000,
@@ -415,23 +763,39 @@
             },
             {
               "name": "Gitega Rural",
-              "collines": ["Bukirasazi", "Gishubi", "Itaba", "Nyabihanga"]
+              "collines": ["Bugendana", "Buraza", "Giheta", "Itaba"]
             }
           ]
         },
         {
-          "name": "Karuzi",
+          "name": "Karusi",
           "population": 90000,
           "coordinates": { "lat": -3.1, "lng": 30.1667 },
-          "commune": "Karuzi",
+          "commune": "Karusi",
           "zones": [
             {
-              "name": "Karuzi Centre",
-              "collines": ["Karuzi I", "Karuzi II", "Karuzi III"]
+              "name": "Karusi Centre",
+              "collines": ["Karusi I", "Karusi II", "Karusi III"]
             },
             {
-              "name": "Karuzi Rural",
-              "collines": ["Gihogazi", "Gitaramuka", "Mutumba", "Shombo"]
+              "name": "Karusi Rural",
+              "collines": ["Bugenyuzi", "Buhiga", "Gihogazi", "Gitaramuka"]
+            }
+          ]
+        },
+        {
+          "name": "Kiganda",
+          "population": 40000,
+          "coordinates": { "lat": -3.2, "lng": 29.6 },
+          "commune": "Kiganda",
+          "zones": [
+            {
+              "name": "Kiganda Centre",
+              "collines": ["Kiganda I", "Kiganda II", "Kiganda III"]
+            },
+            {
+              "name": "Kiganda Rural",
+              "collines": ["Bukeye", "Mbuye", "Rutegama", "Mutumba"]
             }
           ]
         },
@@ -463,7 +827,39 @@
             },
             {
               "name": "Mwaro Rural",
-              "collines": ["Bisoro", "Gisozi", "Kayokwe", "Nyabihanga"]
+              "collines": ["Bisoro", "Gisozi", "Kayokwe", "Ndava"]
+            }
+          ]
+        },
+        {
+          "name": "Nyabihanga",
+          "population": 35000,
+          "coordinates": { "lat": -3.5, "lng": 29.8 },
+          "commune": "Nyabihanga",
+          "zones": [
+            {
+              "name": "Nyabihanga Centre",
+              "collines": ["Nyabihanga I", "Nyabihanga II", "Nyabihanga III"]
+            },
+            {
+              "name": "Nyabihanga Rural",
+              "collines": ["Bisoro", "Gisozi", "Kayokwe", "Rusaka"]
+            }
+          ]
+        },
+        {
+          "name": "Shombo",
+          "population": 30000,
+          "coordinates": { "lat": -3.05, "lng": 30.2 },
+          "commune": "Shombo",
+          "zones": [
+            {
+              "name": "Shombo Centre",
+              "collines": ["Shombo I", "Shombo II", "Shombo III"]
+            },
+            {
+              "name": "Shombo Rural",
+              "collines": ["Bugenyuzi", "Buhiga", "Gihogazi", "Mutumba"]
             }
           ]
         }
