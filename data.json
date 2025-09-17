@@ -20,75 +20,84 @@
       "code": "CAT"
     }
   ],
-  "old_provinces": [
+  "former_provinces": [
     {
       "name": "Bubanza",
-      "communes": ["Bubanza"]
+      "communes": ["Bubanza", "Gihanga", "Musigati", "Mpanda", "Rugazi"]
     },
     {
-      "name": "Bujumbura",
-      "communes": ["Mukaza"]
+      "name": "Bujumbura Mairie",
+      "communes": ["Muha", "Mukaza", "Ntahangwa"]
+    },
+    {
+      "name": "Bujumbura Rural",
+      "communes": ["Isale", "Kabezi", "Kanyosha", "Mubimbi", "Mugongomanga", "Mutambu", "Nyabiraba"]
     },
     {
       "name": "Bururi",
-      "communes": ["Bururi"]
+      "communes": ["Bururi", "Matana", "Mugamba", "Rutovu", "Songa", "Vyanda"]
     },
     {
       "name": "Cankuzo",
-      "communes": ["Cankuzo"]
+      "communes": ["Cankuzo", "Cendajuru", "Gisagara", "Kigamba", "Mishiha"]
     },
     {
       "name": "Cibitoke",
-      "communes": ["Cibitoke"]
+      "communes": ["Buganda", "Bukinanyana", "Mabayi", "Murwi", "Rugombo"]
     },
     {
       "name": "Gitega",
-      "communes": ["Gitega"]
+      "communes": ["Bugendana", "Buraza", "Giheta", "Gishubi", "Gitega", "Itaba", "Makebuko", "Mutaho", "Nyarusange", "Ryansoro"]
     },
     {
       "name": "Karuzi",
-      "communes": ["Karuzi"]
+      "communes": ["Bugenyuzi", "Buhiga", "Gihogazi", "Gitaramuka", "Mutumba", "Nyabikere", "Shombo"]
     },
     {
       "name": "Kayanza",
-      "communes": ["Kayanza"]
+      "communes": ["Butaganzwa", "Gahombo", "Gatara", "Kabarore", "Kayanza", "Matongo", "Muhanga", "Muruta", "Rango"]
     },
     {
       "name": "Kirundo",
-      "communes": ["Kirundo"]
+      "communes": ["Bugabira", "Busoni", "Bwambarangwe", "Gitobe", "Kirundo", "Ntega", "Vumbi"]
     },
     {
       "name": "Makamba",
-      "communes": ["Makamba"]
+      "communes": ["Kayogoro", "Kibago", "Makamba", "Nyanza-Lac", "Vugizo"]
     },
     {
       "name": "Muramvya",
-      "communes": ["Muramvya", "Kiganda", "Mbuye", "Rutegama", "Bukeye"]
+      "communes": ["Bukeye", "Kiganda", "Mbuye", "Muramvya", "Rutegama"]
     },
     {
       "name": "Muyinga",
-      "communes": ["Muyinga"]
+      "communes": ["Butihinda", "Gashoho", "Gasorwe", "Giteranyi", "Muyinga", "Mwakiro"]
     },
     {
       "name": "Mwaro",
-      "communes": ["Mwaro"]
+      "communes": ["Bisoro", "Gisozi", "Kayokwe", "Ndava", "Nyabihanga", "Rusaka"]
     },
     {
       "name": "Ngozi",
-      "communes": ["Ngozi"]
+      "communes": ["Busiga", "Gashikanwa", "Kiremba", "Marangara", "Mwumba", "Ngozi", "Nyamurenza", "Ruhororo", "Tangara"]
+    },
+    {
+      "name": "Rumonge",
+      "communes": ["Rumonge"]
     },
     {
       "name": "Rutana",
-      "communes": ["Rutana"]
+      "communes": ["Bukemba", "Giharo", "Gitanga", "Mpinga-Kayove", "Musongati", "Rutana"]
     },
     {
       "name": "Ruyigi",
-      "communes": ["Ruyigi"]
+      "communes": ["Butezi", "Bweru", "Gisuru", "Kinyinya", "Nyabitsinda", "Ruyigi"]
     }
   ],
   "provinces": [
     {
       "name": "Buhumuza",
+      "former_provinces": ["Cankuzo", "Muyinga", "Ruyigi"],
       "capital": "Cankuzo",
       "population": 1800000,
       "area_km2": 6500,
@@ -154,6 +163,7 @@
     },
     {
       "name": "Bujumbura",
+      "former_provinces": ["Bujumbura Mairie", "Bujumbura Rural", "Bubanza", "Cibitoke", "Rumonge(Partial)", "Muramvya(Partial)"],
       "capital": "Bujumbura",
       "population": 2500000,
       "area_km2": 3200,
@@ -223,6 +233,7 @@
     },
     {
       "name": "Burunga",
+      "former_provinces": ["Bururi", "Makamba", "Rutana", "Rumonge(Partial)"],
       "capital": "Makamba",
       "population": 1600000,
       "area_km2": 5800,
@@ -304,6 +315,7 @@
     },
     {
       "name": "Butanyerera",
+      "former_provinces": ["Kayanza", "Kirundo", "Ngozi", "Muramvya (Partial)"],
       "capital": "Ngozi",
       "population": 2000000,
       "area_km2": 4800,
@@ -373,6 +385,7 @@
     },
     {
       "name": "Gitega",
+      "former_provinces": ["Gitega", "Muramvya (Partial)", "Mwaro", "Karuzi"],
       "capital": "Gitega",
       "population": 1900000,
       "area_km2": 7500,
